@@ -13,6 +13,6 @@ spec:
       serviceAccountName: kube-state-metrics
       containers:
       - name: kube-state-metrics
-        image: anjia0532/google-containers.kube-state-metrics:v1.4.0
+        image: cyrilix/kube-state-metrics
         ports:
         - containerPort: 8080
